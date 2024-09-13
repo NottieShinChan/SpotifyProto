@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1db954;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.music-player {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.music-player:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 40%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.song-info {
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.control-btn {
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.progress-bar {
+    margin-top: 1rem;
+    background-color: #ddd;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 50%; 
+    height: 100%;
+    background-color: #1db954;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #1db954;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Existing styles remain unchanged */
+
+#playlistContainer {
+    margin-top: 1rem;
+}
+
+.song-item {
+    margin-bottom: 0.5rem;
+}
